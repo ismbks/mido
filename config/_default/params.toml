@@ -80,11 +80,11 @@ alertText = "Introducing the Doks child theme, several DX + UX updates, and more
 # repoHost [Github | Gitea | GitLab | Bitbucket | BitbucketServer ] is used for building the edit link based on git hoster
 repoHost = "GitHub"
 #repoHost = "Gitea"
-docsRepo = "https://github.com/h-enk/doks"
+docsRepo = "https://github.com/ismbks/mido"
 docsRepoBranch = "master"
 docsRepoSubPath = ""
-editPage = false
-lastMod = false
+editPage = true
+lastMod = true
 
 [sections]
   sectionNav = ["docs", "guides"]
@@ -111,4 +111,4 @@ lastMod = false
 [menu]
   [menu.section]
     auto = true
-    collapsibleSidebar = true
+    collapsibleSidebar = false
