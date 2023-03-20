@@ -6,10 +6,19 @@
     languageISO = "EN"
     languageTag = "en-US"
 
+[fr]
+  languageName = "Français"
+  contentDir = "content/fr"
+  weight = 15
+  [fr.params]
+    languageISO = "FR"
+    languageTag = "fr-FR"
+    footer = "Rendu possible par <a class=\"text-muted\" href=\"https://www.netlify.com/\">Netlify</a>, <a class=\"text-muted\" href=\"https://gohugo.io/\">Hugo</a>, et <a class=\"text-muted\" href=\"https://getdoks.org/\">Doks</a>"
+
 [de]
   languageName = "German"
   contentDir = "content/de"
-  weight = 15
+  weight = 20
   [de.params]
     languageISO = "DE"
     languageTag = "de-DE"
@@ -17,7 +26,7 @@
 [nl]
   languageName = "Nederlands"
   contentDir = "content/nl"
-  weight = 20
+  weight = 25
   [nl.params]
     languageISO = "NL"
     languageTag = "nl-NL"
