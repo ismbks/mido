@@ -1,0 +1,35 @@
+[[main]]
+  name = "Fablab"
+  url = "/intro/lorem/ipsum/"
+  identifier = "intro"
+  weight = 10
+
+# [[main]]
+#   name = "Tutorial"
+#   url = "/tutorial/lorem/ipsum/"
+#   weight = 15
+
+[[main]]
+  name = "Docs"
+  url = "/docs/lorem/ipsum/"
+  identifier = "docs"
+  weight = 20
+
+[[main]]
+  name = "FAQ"
+  weight = 30
+  identifier = "faq"
+  url = "/faq/"
+
+[[main]]
+  name = "Contact"
+  weight = 40
+  identifier = "contact"
+  url = "/contact/"
+
+[[main]]
+  name = "Discord"
+  weight = 50
+  identifier = "discord"
+  url = "/contact/"
+  parent = "contact"
